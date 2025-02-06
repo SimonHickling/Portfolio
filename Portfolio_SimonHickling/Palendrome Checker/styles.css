@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana;
+}
+
+#border-box {
+  background-color: #b5cbdd;
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+body {
+  background-image: linear-gradient(#BFD7EA 0%, #dfeefa 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #076c77;
+  background-attachment: fixed;
+}
+
+#head-banner {
+width: 80%;
+background-image: linear-gradient(#076c77, #087E8B);
+height: 200px;
+align-content: center;
+margin: auto;
+border-radius: 8px;
+padding-top: 8px;
+}
+
+header h1 {
+  align-content: center;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #cddde9;
+  font-size: 35px;
+  text-shadow: -5px 5px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1000px) {
+  header h1 {
+      font-size: 23px;
+  }
+}
+
+@media (max-width: 700px) {
+  header h1 {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  header h1 {
+      font-size: 13px;
+  }
+}
+header h2 {
+  align-content: center;
+  padding: 5px;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  shadow: -5px 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+#outer-box {
+  background-image: linear-gradient(#076c77, #087E8B);
+  color: white;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  padding: 50px 25px;
+  border-radius: 8px;
+}
+ 
+#inner-box {
+  background-color: #BFD7EA; 
+  padding: 25px;
+  border-radius: 4px;
+  margin-top: 10px
+}
+
+.hide {
+    display: none;
+}
+
+#text-input {
+  width: 66%
+}
+
+#result {
+  color: #076c77;
+  font-size: 2rem;
+}
+@media (max-width: 600px) {
+  #input-label {
+      font-size: 10px;
+  }
+}
+
+#check-btn {
+  width: 25%;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+  }
+
+  @media (max-width: 600px) {
+    #check-btn {
+      font-size: 0.4rem;
+    }
+  }
